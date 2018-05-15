@@ -1,0 +1,52 @@
+.main {
+	width: 990px;
+	margin: 0 auto;
+}
+		.title .author{
+			
+		}
+			.title b{
+				color: #999999;
+			}
+			.title p{
+				color: #999999;
+				margin-top: 20px;
+			}
+	.main img{
+		height: 660px;
+		width: 988px;
+		margin: 34px auto;
+	}
+	.main .main_text{
+		width: 962px;
+		margin: 0 auto;
+	}
+		.main .main_text p{
+			color: #999999;
+			text-indent: 2em;
+			line-height: 24px;
+		}
+	.main_bottom{
+		height: 40px;
+		width: 990px;
+		margin: 52px auto 80px;
+	}	
+		.main_bottom .flip{
+				height: 40px;
+				width: 140px;
+				margin-left: 8px;
+			}
+			.main_bottom .flip a{
+					height: 16px;
+					display: block;
+				}
+			.main_bottom .flip a:hover{
+					color: #e78e25;
+				}
+			.main_bottom .back a{
+					margin-top: 14px;
+					float: right;
+					height: 14px;
+					width: 60px;
+					display: block;
+				}

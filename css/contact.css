@@ -1,0 +1,82 @@
+.main{
+	width: 990px;
+	margin: 0 auto;
+}
+	.title h5{
+		margin-top: 70px !important;
+	}
+	 iframe{
+	 	width:950px;
+	 	height: 300px;
+	 	margin-left: 20px;
+	 	margin-top: 58px;
+	 	
+	 }
+	 .form{
+	 	height: 460px;
+	 	width: 990px;
+	 	margin: 0 auto;
+	 }
+	 	.form ul{
+	 		width: inherit;
+	 		margin-top: 90px;
+	 		margin-left: 34px;
+	 	}
+			 .form li{
+			 	width: 400px;
+			 	height: 30px;
+			 	margin-bottom: 24px;
+			 }
+			 	.form input{
+			 		padding-left: 8px;
+			 		height: inherit;
+			 		width: inherit;
+			 		line-height: 30px;
+			 		border: 1px solid #333333;
+			 		color: #333333;
+			 	}
+				 	.form .code input{
+				 		float: left;
+				 		height: 30px;
+				 	}
+				 	.form .code img{
+				 		float: left;
+				 		margin: 5px 20px;
+				 		cursor: pointer;
+					}
+					.form .code  a{
+						color: #333333;
+			 			font-size: 12px;
+			 			float: left;
+			 			margin-top: 6px;
+			 		}
+			.form .textarea{
+				margin-right: 34px;
+			}
+				.form .textarea textarea{
+					padding-top: 8px;
+					padding-left: 8px;
+					margin-top: 90px;
+					width: 400px;
+					height: 190px;
+					resize: none;
+					color: #333333;
+					border: 1px solid #333333;
+				}
+		.form .bottom{
+			float: left;
+			width: 990px;
+			margin: 0 auto;
+			height: 42px;
+		}
+			.form .bottom input{
+				padding: 0;
+				cursor: pointer;
+				display: block;
+				height: 42px;
+				width: 100px;
+				border: 1px solid #333333;
+				margin: 60px auto;
+				background: #ffffff;
+
+			}

@@ -1,0 +1,55 @@
+.main{
+	width: 990px;
+	margin: 0 auto;
+}
+		.title p{
+			color: #999999;
+			margin-top: 20px;
+		}
+	
+    .pro_description{
+    	width: 990px;
+    	margin: 0 auto;
+    	margin-top: 70px;
+    	position: relative;
+    }
+    	.pro_description .pro_image{
+    		height: 508px;
+    		width: 390px;
+    		position: relative;
+    		background: url(../img/pro_details/images/pro_details_01.png);
+    		border-radius:10px;
+			z-index:999;
+			behavior:url(js/PIE.htc);
+    	}
+	    .pro_description .pro_box{
+	    	border-radius:10px;
+	    	position: absolute;
+			z-index:999;
+			behavior:url(js/PIE.htc);
+	    	border: 1px solid #333333;
+	   		width: 518px;
+	   		margin-top: 170px;
+	   		margin-left: 300px;
+	   		padding: 58px 60px 70px 110px;
+	   	}
+	    		.pro_description .pro_box p{
+	    			text-indent: 2em;
+	    			width: 518px;
+	    			line-height: 26px;
+	    		} 
+		    .page{
+		    	width: 430px;
+		    	height: 14px;
+		    	margin: 160px auto 80px;
+		    } 
+				.page a{
+					height: 14px;
+					display: block;
+					margin-right: 24px;
+					margin-left: 8px;
+					}
+					    
+				.page a:hover {
+				    color: #E78E25;
+					}

@@ -1,0 +1,35 @@
+
+	.main .main_img{
+		overflow: hidden;
+		position: relative;
+		width: 990px;
+		height: 300px;
+		left: 50%;
+		margin-left: -495px;
+	}
+		.main img{
+			margin-top: 36px;
+			width: 990px;
+			height: 300px;
+			position: absolute;
+		}
+	.main .main_text{
+		margin: 0 auto 100px;
+		width: 990px;
+	}
+		.main .main_text h5{
+			margin-top:40px ;
+			color: #ff9933;
+			font-size: 24px;
+		}
+			.main .main_text p{
+				margin-top: 24px;
+				text-indent: 2em;
+			}
+			.main .main_text i{
+				display: inline-block;
+				margin-top: 24px;
+			}
+				.main .main_text p b{
+					font-weight: bold;
+				}

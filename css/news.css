@@ -1,0 +1,100 @@
+.main ol{
+	width: 990px;
+	margin: 38px auto;
+}
+	.main ol li{
+		background: #f7f7f7;
+		height: 200px;
+		width: inherit;
+		margin-bottom: 46px;
+	}
+		.main ol li img{
+			position: relative;
+			border-radius:10px;
+			z-index:999;
+			behavior:url(js/PIE.htc);
+			float: left;
+			height: 148px;
+			width: 258px;
+			margin:  24px 46px 29px 20px;
+		}
+		.main ol li .text{
+			height: 68px;
+			width: 410px;
+			float: left;
+		}
+			.main ol li h5{
+				margin-top: 50px;
+				font-size: 24px;
+			}
+			.main ol li p{
+				margin-top: 28px;
+				font-size: 18px;
+				color: #999999;
+			}
+				.main ol li .date{
+					margin-top: 46px;
+					height: 110px;
+					width: 94px;
+					border-left: 1px solid #999999;
+					margin-right: 55px;
+				}
+					.main ol li .date h5{
+						float: right;
+						font-size: 18px;
+						margin-top: 4px;
+					}
+					.main ol li .date span{
+						float: right;
+						margin-top: 6px;
+						margin-right: 16px;
+					}
+					.main ol li .date .img{
+						border-radius: 0;
+						float: right;
+						margin-right: 10px;
+						margin-top: 24px;
+						height: 38px;
+						width: 38px;
+						background: url(../img/news/news1_23.png);
+					}
+					.main ol li .date .img:hover{
+						background: url(../img/news/news1_08.png);
+						height: 38px;
+						width: 38px;
+					}
+			.page ul{
+				height: 30px;
+				width: 990px;
+				
+				margin: 80px auto;
+			}
+				.page ul li{
+					text-align: center;
+					line-height: 30px;
+					border: 1px solid #ff9933;
+					margin-right: 18px;
+					width: 30px;
+					height: 30px;
+					float: left;
+				}
+				.page ul li a{
+					display: block;
+					height: inherit;
+					width: inherit;
+				}
+				.page ul .on a{
+					background: #FF9933;
+					color: white;
+				}
+				.page ul .prev{
+					width: 54px;
+				}
+				.page ul .next{
+					width: 56px;
+				}
+				.page ul li a:hover{
+					background: #FF9933;
+					color: white;
+				}
+

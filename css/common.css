@@ -1,0 +1,270 @@
+*{
+	margin:0; 
+	padding:0;
+	text-decoration: none;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	font-size: 14px;
+	color: black;
+	list-style: none;
+	border:none;
+	outline: none;
+	font-style: normal;
+} 
+
+/*左浮动*/
+.fl{
+	float: left;
+}
+
+/*右浮动*/
+.fr{
+	float: right;
+}
+
+/*去除浮动*/
+.clear::after{
+	height: 0;
+	visibility: hidden;
+	display: block;
+	clear: both;
+	content: "";
+}
+
+body{
+	background: #ffffff;
+}
+.header{
+	width: 100%;
+	height: 150px;
+	background: #e6f1f1;
+}
+	.container{
+		height: inherit;
+		width: 1200px;
+		margin: 0 auto;
+	}
+		.header .container .logo{
+			width: 205px;
+			height: 150px;
+			line-height: 150px;	
+		}
+		.header .container ul{
+			width: 600px;
+			height: inherit;
+			text-align: center;
+		}
+			.header .container ul li{
+				position: relative;
+				height: 150px;
+				width: 90px;
+				float: left;
+				line-height: 150px;
+				font-size: 16px;
+			}
+			.header .container ul .current a{
+				color: #d1a25c;	
+				
+			}
+			.header .container ul li span{
+				position: absolute;
+				width: 32px;
+				display: block;
+			}
+			.header .container ul .current span{
+				left: 29px;
+				top: 88px;
+				border-bottom: 3px solid #D1A25C;
+				border-bottom-left-radius: 0.5px;
+				border-bottom-right-radius: 0.5px;
+			}
+			.header .container li:hover a{
+				color: #d1a25c;
+			}
+			.header .container li:hover span{
+				border-bottom: 3px solid #D1A25C;
+				border-bottom-left-radius: 0.5px;
+				border-bottom-right-radius: 0.5px;
+				width: 32px;
+				left: 29px;
+				top: 88px;
+			}
+.footer{
+	color: white;
+	height: 410px;
+	background: url(../img/index/footer/footer9_03.png);
+}
+	.footer .top{
+		height: 366px;
+		overflow: hidden;
+	}
+		.footer .top .top_title{
+			text-align: center;
+		}
+			.footer .top .top_title h5{
+				color: #cccccc;
+				margin-top: 70px;
+				font-size: 30px;
+			}
+			.footer .top .top_title span{
+				margin-top: 0px;
+				color: #cccccc;
+				font-size: 18px;
+			}
+		.footer .top .list{
+			font-size: 18px;
+			width: 1010px;
+			height: 182px;
+			margin: 48px auto;
+		}
+			.footer .top .list .address{
+				width: 230px;
+				height: 90px;
+				margin-right: 186px;
+				
+			}
+					.footer .top .list .address p{
+						color: #cccccc;
+						margin-left: 16px;
+					}
+					.footer .top .list .address div{
+						height: 32px;
+						width: inherit;
+						float: left;
+						margin-top: 38px;
+					}
+						.footer .top .list .address div a{
+							float: left;
+							margin-right: 30px;
+							display: block;
+							height: 32px;
+							line-height: 32px;
+						}
+					.footer .top .list .address div img{
+						vertical-align: middle;
+					}
+			.footer .top .list .code{
+				height: 180px;
+				width: 174px;
+				margin-right: 208px;
+			}
+				.footer .top .list .code img{
+					margin-left: 6px;
+				}
+				.footer .top .list .code p{
+					margin-left: 8px;
+					color: #CCCCCC;
+				}
+				.footer .top .list .code div{
+					width: inherit;
+					height: 94px;
+					margin-top: 60px;
+					color: #cccccc;
+					text-align: center;
+				}
+					.footer .top .list .mail{
+						height:206px;
+					}
+				.footer .top .list .mail{
+					vertical-align: middle;
+					display: table-cell;
+				}
+					.footer .top .list .mail p{
+						color: #cccccc;
+						margin-left: 16px;
+					}
+				.footer .top .list .mail div{
+					width: inherit;
+					height: 24px;
+					margin-top: 38px;
+				}
+					.footer .top .list .mail div img{
+						float: left;
+					}
+					.footer .top .list .mail div p{
+						color: #cccccc;
+						margin-left: 14px;
+						width: 100px;
+						float: left;
+					}
+	.footer .bottom{
+		height: 44px;
+		width: inherit;
+		vertical-align: middle;
+		display: table-cell;
+	}
+		.footer .bottom p{
+			color: #cccccc;
+			text-align: center;
+		}
+			.title{
+			height: 54px;
+			text-align: center;
+			
+		}
+			.title h5{
+				font-size: 30px;
+				margin-top: 100px;
+			}
+			.title span{
+				color: #999999;
+				font-size: 18px;
+			}
+			
+.image{
+	height: 300px;
+	width: 100%;
+	overflow-x: hidden;
+	
+}
+	.image .tempwrap{
+		position: relative;
+		height: 300px;
+		width: 1920px;
+		left: 50%;
+		margin-left:-960px;
+	}
+		.image .tempwrap img{
+			height: 300px;
+			width: 1920px;
+			position: absolute;
+			display: block;
+		}
+	.location ul{
+		height:34px ;
+		width: 1010px;
+		margin: 66px auto;
+		text-align: center;
+	}
+		.location ul li{
+			line-height: 34px;
+			margin-left: 10px;
+			float: left;
+			height: inherit;
+			width: 90px;
+			font-size: 16px;
+		}
+		.location ul li a{
+			height: 34px;
+			width: 90px;
+			display: block;
+		}
+		.location ul .on a{
+			height: 34px;
+			width: 90px;
+			color: white;
+			background: #ff9933;
+			display: block;
+		}
+		.location ul li a:hover{
+			color: white;
+			background: #ff9933;
+		}
+	.main hr{
+		height: 1px;
+		width: 990px;
+		border-top: 1px solid #e5e5e5;
+		margin: 0 auto;
+		margin-top: 50px;
+		display: block;
+	}
